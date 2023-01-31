@@ -191,8 +191,8 @@ portfolio = [
 { grupo:"Pintura", pila:"Modelo", archivo:"/modelo/suray tomandose la rodilla detalle 2012.jpg", nombre:"suray tomandose la rodilla detalle" },
 { grupo: "Pintura", pila: "Modelo", archivo: "/modelo/suray tomandose la rodilla_cr 2012.jpg", nombre: "suray tomandose la rodilla" },
 { grupo: "Pintura", pila: "Modelo", archivo: "/modelo/Manet_cr 2011.jpg", nombre: "Manet" },
-{ grupo: "Varios", pila: "", archivo: "/cuentos/elbichopelota.jpg", nombre: "El bicho Pelota" },
-{ grupo: "Varios", pila: "", archivo: "/cuentos/laardillitagordita.jpg", nombre: "La Ardillita Gordita" },
+{ grupo: "Varios", pila: "", archivo: "/Cuentos/elbichopelota.jpg", nombre: "El bicho Pelota" },
+{ grupo: "Varios", pila: "", archivo: "/Cuentos/laardillitagordita.jpg", nombre: "La Ardillita Gordita" },
 { grupo: "Varios", pila: "", archivo: "/ESCULTURA/DSC_0100.jpg", nombre: "Sin Nombre" }
 ];
 
