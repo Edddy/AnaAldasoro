@@ -13,7 +13,7 @@
     
     <script src="Scripts/stapel/jquery.stapel.js"></script>
     
-    <link href="content/site.css" type="text/css" rel="Stylesheet" />
+    <link href="Content/site.css" type="text/css" rel="Stylesheet" />
     <link href="Scripts/stapel/stapel.css" rel="stylesheet" />
     
     <link href="Scripts/Messi/messi.min.css" rel="stylesheet" />
@@ -28,12 +28,12 @@
 
         $().ready(function () {
             for (var i = 0; i < portfolio.length; i++) {
-                $("#tp-grid").append($("<li data-pile='" + portfolio[i].grupo + " - " + portfolio[i].pila + "'><a href='javascript:showTrabajo(" + i + ")'><span class='tp-info'><span>" + portfolio[i].nombre.toProperCase() + "</span></span><img src='content/PortfolioThumb/" + portfolio[i].grupo + portfolio[i].archivo + "'></a></li>"));
+                $("#tp-grid").append($("<li data-pile='" + portfolio[i].grupo + " - " + portfolio[i].pila + "'><a href='javascript:showTrabajo(" + i + ")'><span class='tp-info'><span>" + portfolio[i].nombre.toProperCase() + "</span></span><img src='Content/PortfolioThumb/" + portfolio[i].grupo + portfolio[i].archivo + "'></a></li>"));
             };
         });
 
         function showTrabajo(i) {
-            new Messi("<div class='popup'><img src='content/Portfolio/" + portfolio[i].grupo + portfolio[i].archivo + "'><h3>" + portfolio[i].nombre.toProperCase() + "</h3><h4>" + portfolio[i].grupo + " - " + portfolio[i].pila + "</h4></div>", { modal: true, buttons: [{ id: 0, label: 'Cerrar', val: 'X' }], center: true, width: '860px', height: '660px' });
+            new Messi("<div class='popup'><img src='Content/Portfolio/" + portfolio[i].grupo + portfolio[i].archivo + "'><h3>" + portfolio[i].nombre.toProperCase() + "</h3><h4>" + portfolio[i].grupo + " - " + portfolio[i].pila + "</h4></div>", { modal: true, buttons: [{ id: 0, label: 'Cerrar', val: 'X' }], center: true, width: '860px', height: '660px' });
         }
 
   	</script>
